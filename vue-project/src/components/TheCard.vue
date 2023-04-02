@@ -3,7 +3,7 @@
     <img :src="image" alt="" />
     <h2>{{ name }}</h2>
     <p>{{ price }}</p>
-    <button @click="$emit('add')" class="addCart">Add to Cart</button>
+    <button @click="$emit('add')" class="addCart">add to cart</button>
   </div>
 </template>
 
@@ -42,15 +42,15 @@ img {
   object-fit: cover;
 }
 .addCart {
-  margin-top: 10rem;
+  margin-top: 9rem;
   position: absolute;
-  width: 12rem;
-  height: 3rem;
+  width: 11rem;
+  height: 2.5rem;
   border: none;
   border-radius: 0.2rem;
   background-color: #04361f;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   opacity: 0.8;
   transition: 0.3s;
 }

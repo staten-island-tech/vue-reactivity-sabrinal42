@@ -15,8 +15,8 @@
             :image="inCart.image"
           />
         </div>
-        <h4>{{ cartItems }} Items in Cart</h4>
-        <h4>Subtotal: ${{ subtotal }}</h4>
+        <h4>{{ cartItems }} items in Cart</h4>
+        <h4>subtotal: ${{ subtotal }}</h4>
       </div>
     </div>
     <section class="display">
@@ -44,7 +44,7 @@ export default {
   },
   data() {
     return {
-      cartButton: `Cart`,
+      cartButton: `cart`,
       cartItems: 0,
       subtotal: 0,
       cartPrice: [],
@@ -58,67 +58,67 @@ export default {
         },
         {
           name: "MONSTERA",
-          price: 18,
+          price: 48,
           image:
             "https://cb2.scene7.com/is/image/CB2/MonsteraDeliciosaBkPt6inSHF22/$web_pdp_main_carousel_lg$/220613165919/live-monstera-6-in-black-ceramic-pot.jpg",
         },
         {
           name: "CALATHEA ORNATA PINSTRIPE",
-          price: 18,
+          price: 8,
           image:
             "https://cb2.scene7.com/is/image/CB2/CalatheaOrnataWhtPot6inSHF22/$web_pdp_main_carousel_lg$/220613165947/live-calathea-ornata-pinstripe-plant-6-in-white-ceramic-pot.jpg",
         },
         {
           name: "FICUS ELASTICA RUBBER",
-          price: 18,
+          price: 28,
           image:
             "https://cb2.scene7.com/is/image/CB2/FicusElstcRbbrTrBkPot6inSHF22/$web_pdp_main_carousel_lg$/220613151917/live-ficus-elastica-rubber-plant-in-matte-black-ceramic-pot-6.jpg",
         },
         {
           name: "PEPEROMIA OBTUSIFOLIA",
-          price: 18,
+          price: 19,
           image:
             "https://cb2.scene7.com/is/image/CB2/PeperomiaObtsflBkPt6inSHF22/$web_pdp_main_carousel_lg$/220613165944/live-peperomia-obtusifolia-6-in-ceramic-black-pot.jpg",
         },
         {
           name: "FAUX CACTUS",
-          price: 18,
+          price: 13,
           image:
             "https://cb2.scene7.com/is/image/CB2/FauxPottedCactus4p9inSHS23/$web_pdp_main_carousel_lg$/221216141021/faux-potted-cactus-plant-49.jpg",
         },
         {
           name: "FAUX SNAKE PLANT",
-          price: 18,
+          price: 17,
           image:
             "https://cb2.scene7.com/is/image/CB2/FauxSnakePlantSHF20/$web_pdp_main_carousel_lg$/200618142020/faux-snake-plant.jpg",
         },
         {
           name: "WATERMELON PEPEROMIA",
-          price: 18,
+          price: 33,
           image:
             "https://cb2.scene7.com/is/image/CB2/FxPttdWtrmlnPprmPlant24inSHF22/$web_pdp_main_carousel_lg$/220613151917/faux-potted-watermelon-peperomia-plant-24.jpg",
         },
         {
           name: "TRADESCANTIA ZEBRINA",
-          price: 18,
+          price: 8,
           image:
             "https://cb2.scene7.com/is/image/CB2/TrdscntZbrnPlntWtPt6inSHF22/$web_pdp_main_carousel_lg$/220613165947/live-tradescantia-zebrina-inch-plant-in-white-ceramic-pot-6.jpg",
         },
         {
           name: "FAUX FERN",
-          price: 18,
+          price: 11,
           image:
             "https://cb2.scene7.com/is/image/CB2/PottedFernPlantSHS22/$web_pdp_main_carousel_lg$/211221185733/faux-fern-plant-10.jpg",
         },
         {
           name: "COIN PLANT",
-          price: 18,
+          price: 13,
           image:
             "https://cb2.scene7.com/is/image/CB2/PottedCoinPlantWhtPot8inSHS21/$web_pdp_main_carousel_lg$/201123143903/8-potted-coin-plant-white-pot.jpg",
         },
         {
           name: "STRING OF BANANAS",
-          price: 18,
+          price: 8,
           image:
             "https://cb2.scene7.com/is/image/CB2/PottedStrngOfBnnsWtPotSHS22/$web_pdp_main_carousel_lg$/211213121028/faux-string-of-bananas-plant-21.jpg",
         },
@@ -142,14 +142,11 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #151515;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: #b8cdb6;
 }
 
 #nav {
@@ -158,15 +155,13 @@ export default {
   align-items: center;
   padding: 0 4rem;
   position: sticky;
-  background-color: #99c096;
+  background-color: #fff;
   top: 0;
-  z-index: 2;
 }
 
 #nav a {
   font-weight: bold;
   color: #151515;
-  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
@@ -208,6 +203,5 @@ export default {
   background-color: #fff;
   z-index: 0;
   transition: 0.3s;
-  background-color: #99c096;
 }
 </style>
