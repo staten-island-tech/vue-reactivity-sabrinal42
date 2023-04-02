@@ -35,6 +35,7 @@ export default {
 
 p {
   margin-top: 0rem;
+  font-size: 1.5rem;
 }
 img {
   width: 20rem;
@@ -42,7 +43,7 @@ img {
   object-fit: cover;
 }
 .addCart {
-  margin-top: 9rem;
+  margin-top: 28.5rem;
   position: absolute;
   width: 11rem;
   height: 2.5rem;
@@ -51,14 +52,15 @@ img {
   background-color: #04361f;
   color: #fff;
   font-size: 1.3rem;
-  opacity: 0.8;
+  opacity: 0.7;
   transition: 0.3s;
 }
 .addCart:hover {
   cursor: pointer;
   opacity: 0.8;
 }
+
 .addCart:active {
-  transform: scale(0.8);
+  transform: scale(0.9);
 }
 </style>

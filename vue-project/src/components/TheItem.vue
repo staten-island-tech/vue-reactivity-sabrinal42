@@ -45,9 +45,9 @@ h4 {
 }
 .remove {
   position: absolute;
-  margin-left: 1.5rem;
-  width: 2rem;
-  height: 2rem;
+  margin-left: 2rem;
+  width: 5rem;
+  height: 5rem;
   display: none;
   transition: 0.2s;
 }
