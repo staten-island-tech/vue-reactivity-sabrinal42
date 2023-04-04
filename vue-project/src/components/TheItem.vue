@@ -3,12 +3,7 @@
     <img :src="image" alt="" />
     <h4>{{ name }}</h4>
     <p>{{ price }}</p>
-    <img
-      @click="$emit('remove')"
-      src="../assets/ex.png"
-      alt=""
-      class="remove"
-    />
+    <img @click="$emit('remove')" class="remove" />
   </div>
 </template>
 
@@ -29,7 +24,6 @@ export default {
   justify-content: space-between;
   height: 6rem;
   margin: 2rem;
-  color: #151515;
 }
 .cartItem:hover .remove {
   display: block;
